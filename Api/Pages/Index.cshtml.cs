@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Api.Pages
 {
@@ -14,7 +13,7 @@ namespace Api.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Index viewed!");
         }
     }
 }
